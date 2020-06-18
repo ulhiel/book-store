@@ -8,6 +8,18 @@ import './styles/app.scss'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faBars, faSearch, faShoppingCart, faUser } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+
+Vue.component('top-navbar', require('./components/basics/top-navbar').default)
+Vue.component('top-message', require('./components/basics/top-message.vue').default)
+Vue.component('top-category', require('./components/basics/top-category.vue').default)
+Vue.component('welcome-banner', require('./components/welcome/top-banner.vue').default)
+Vue.component('editors-choice', require('./components/welcome/editors-choice.vue').default)
+Vue.component('footer-bottom', require('./components/basics/footer.vue').default)
+Vue.component('new-arrival', require('./components/welcome/new-arrival.vue').default)
+Vue.component('best-selling', require('./components/welcome/best-selling.vue').default)
+Vue.component('bottom-banner', require('./components/welcome/bottom-banner.vue').default)
+
+Vue.component('card-display', require('./components/book-display/card-display').default)
  
 library.add(faBars,faSearch, faShoppingCart, faUser)
  

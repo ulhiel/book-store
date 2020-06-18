@@ -8,6 +8,11 @@ Vue.use(VueRouter)
       path: '/',
       name: 'welcome',
       component: require('../views/welcome').default
+    },
+    {
+      path: '/category',
+      name: 'category',
+      component: require('../views/category').default
     }
   ]
 

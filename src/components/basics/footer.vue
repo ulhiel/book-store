@@ -1,6 +1,6 @@
 <template>
   <div class="footer">
-      <div class="container">
+      <div class="container-fluid">
         <div class="row text-left">
           <div class="col-md-3">
             <h3><b>eKuilibrium</b></h3>
