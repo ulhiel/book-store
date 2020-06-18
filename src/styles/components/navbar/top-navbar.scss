@@ -1,4 +1,6 @@
 .top-navbar {
+    position: sticky;
+    
     width: 100%;
     height: 75px;
     background-color: #FFFFFF;
@@ -13,13 +15,32 @@
         font-size: 2rem;
         font-weight: 750;
         margin: 0 1rem 0 1rem;
+        a {
+            text-decoration: none;
+            color: #0F2F4C;
+        }
     }
-
+    
     .nav-action {
+        .nav-search {
+            align-items: center;
+            width: 600px;
+        }
         display: flex;
         justify-content: space-between;
+        align-items: center;
         .nav-icon {
             margin: 0 1rem 0 1rem;
         }
+        btn {
+           margin: 0 !important;
+        }
+    }
+}
+
+@media screen and (max-width:500px){
+    .nav-brand {
+        font-size: 1rem !important;
+        margin: 0 0.5rem 0 0.5rem !important;
     }
 }
