@@ -18,6 +18,11 @@ Vue.use(VueRouter)
       path: '/book',
       name: 'book',
       component: require('../views/book-show.vue').default
+    },
+    {
+      path: '/checkout',
+      name: 'checkout',
+      component: require('../views/checkout/cart-page.vue').default
     }
   ]
 

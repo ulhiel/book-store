@@ -1,6 +1,6 @@
 .top-category {
-    border-top: 1px solid #000000;
-    border-bottom: 1px solid #000000;
+    border-top: 1px solid #C5C5C5;
+    border-bottom: 1px solid #C5C5C5;
 
     width: 100%;
     height: 35px;
@@ -9,7 +9,6 @@
 
     align-items: center;
     justify-content: space-around;
-
 
     .category-item {
         a {
@@ -22,14 +21,38 @@
     }
 
     .has-dropdown:hover .dropdown {
-        display: block;
-        width: 100%;
-        height: 250px;
-        background-color: red;
+        display: block !important;
+        
+        padding: 0.5rem;
+        background-color: #FFFFFF;
+
+        border-radius: 5px;
 
         position: absolute;
-        left: 0;
+        left: 50px;
         z-index: 3;
+
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .dropdown ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        text-align: left;
+    }
+
+    .dropdown ul a {
+        margin: 0;
+    }
+
+    .dropdown ul a li {
+        padding: 0.5rem;
+        border-radius: 5px;
+    }
+
+    .dropdown ul a:hover li {
+        background-color: #C5C5C5;
     }
 }
 

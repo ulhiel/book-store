@@ -6,7 +6,7 @@ import store from './store'
 import './styles/app.scss'
 
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faBars, faSearch, faShoppingCart, faUser } from '@fortawesome/free-solid-svg-icons'
+import { faBars, faSearch, faShoppingCart, faUser, faTrash } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 Vue.component('top-navbar', require('./components/basics/top-navbar').default)
@@ -24,8 +24,13 @@ Vue.component('book-review', require('./components/book-display/book-review.vue'
 Vue.component('book-action', require('./components/book-display/book-action.vue').default)
 
 Vue.component('card-display', require('./components/book-display/card-display').default)
+Vue.component('cart-page-item', require('./views/checkout/cart-item.vue').default)
+Vue.component('checkout-summary', require('./components/checkout/checkout-summary.vue').default)
+Vue.component('navbar-cart-item', require('./components/basics/navbar-cart-item').default)
+
+Vue.component('sidebar',require('./components/basics/sidebar.vue').default)
  
-library.add(faBars,faSearch, faShoppingCart, faUser)
+library.add(faBars,faSearch, faShoppingCart, faUser, faTrash)
  
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 

@@ -2,8 +2,11 @@
   <div class="top-category">
       <div class="category-item has-dropdown">
           <router-link to="/category">SEMUA KATEGORI</router-link>
-          <div class="dropdown">
-              
+          <div class="dropdown d-none">
+            <ul>
+              <router-link to="/as"><li>Fiksi Populer</li></router-link>
+              <router-link to="/asdg"><li>Filsafat dan Pemikiran</li></router-link>
+            </ul>
           </div>
       </div>
       <div class="category-item">

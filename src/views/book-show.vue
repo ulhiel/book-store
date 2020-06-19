@@ -14,7 +14,7 @@
             <div class="row justify-content-center">
                 <div class="col-sm-12 col-md-10 row">
                     <div class="col-md-6">
-                            <img src="../../public/img/image-1.png" alt="asdf" style="width:100%;height:auto;background-color:red">
+                        <img src="../../public/img/image-1.png" alt="asdf" style="width:100%;height:auto;background-color:red">
                     </div>
                     <div class="col-md-6 text-left book-data">
                         <div class="title">
