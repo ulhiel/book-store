@@ -19,6 +19,10 @@ Vue.component('new-arrival', require('./components/welcome/new-arrival.vue').def
 Vue.component('best-selling', require('./components/welcome/best-selling.vue').default)
 Vue.component('bottom-banner', require('./components/welcome/bottom-banner.vue').default)
 
+Vue.component('similar-recomendation', require('./components/book-display/similar-recomendation.vue').default)
+Vue.component('book-review', require('./components/book-display/book-review.vue').default)
+Vue.component('book-action', require('./components/book-display/book-action.vue').default)
+
 Vue.component('card-display', require('./components/book-display/card-display').default)
  
 library.add(faBars,faSearch, faShoppingCart, faUser)

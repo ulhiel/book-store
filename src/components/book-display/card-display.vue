@@ -1,7 +1,7 @@
 <template>
-  <div class="card-display">
+  <div class="card-display" @click="showBook()">
       <div class="main-picture">
-
+          <img src="../../../public/img/image-1.png" alt="" style="width:100%;height:auto;">
       </div>
       <div class="book-title">
           Guru Aini
@@ -17,7 +17,11 @@
 
 <script>
 export default {
-
+    methods: {
+        showBook(){
+            this.$router.push('/book');
+        }
+    }
 }
 </script>
 

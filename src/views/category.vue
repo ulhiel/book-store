@@ -23,7 +23,11 @@
                         <div class="form-group row justify-content-end row align-items-center my-0">
                             <label for="filter" class="col-sm-4 col-form-label">Urutkan Berdasarkan</label>
                             <div class="col-sm-6">
-                                <select name="filter" class="form-control"></select>
+                                <select name="filter" class="form-control">
+                                    <option value="">Termurah</option>
+                                    <option value="">Termahal</option>
+                                    <option value="">Paling Baru</option>
+                                </select>
                             </div>
                         </div>
                     </form>

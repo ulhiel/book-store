@@ -13,6 +13,11 @@ Vue.use(VueRouter)
       path: '/category',
       name: 'category',
       component: require('../views/category').default
+    },
+    {
+      path: '/book',
+      name: 'book',
+      component: require('../views/book-show.vue').default
     }
   ]
 

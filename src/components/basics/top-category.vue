@@ -1,7 +1,7 @@
 <template>
   <div class="top-category">
       <div class="category-item has-dropdown">
-          <a href="">SEMUA KATEGORI</a>
+          <router-link to="/category">SEMUA KATEGORI</router-link>
           <div class="dropdown">
               
           </div>

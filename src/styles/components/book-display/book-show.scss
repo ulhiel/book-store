@@ -1,0 +1,35 @@
+.book-data {
+    .title {
+        .book {
+            font-weight: bold;
+            font-size: 2rem;
+        }
+    }
+    .price {
+        margin-top: 1rem;
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+
+    .description {
+        margin-top: 1rem;
+    }
+
+    .data {
+        margin-top: 1rem;
+    }
+
+    .action {
+        margin-top: 1rem;
+        background-color: #FFFFFF;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .book-show {
+        .container-fluid {
+            padding-left: 1rem !important;
+            padding-right: 1rem !important;
+        }
+    }
+}
